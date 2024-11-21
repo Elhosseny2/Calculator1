@@ -86,8 +86,8 @@ equal.addEventListener("click", () => {
   Number1 = answer;
   //display a snarky error message when divide by 0
   Number2 == 0 && operator == "/"
-    ? (display.value = "اعقل يسطا")
-    : console.log(`The answer is: ${answer}`);
+    ? (display.value = "اعقل يسطا"): 
+    console.log(`The answer is: ${answer}`);
     operator =""
     Number2= ""
 });
