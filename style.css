@@ -52,3 +52,6 @@ button {
 .num:hover, .clear:hover {
     background-color: hsl(0, 0%, 50%);
 }
+.opBTN:hover , #equalsBTN:hover {
+    background-color: hsl(35, 100%, 65%)
+}
