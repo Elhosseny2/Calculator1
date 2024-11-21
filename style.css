@@ -1,4 +1,7 @@
 body {
+  background-image: url('https://img.freepik.com/premium-photo/creative-educational-sketch-dark-background-with-copybooks-education-knowledge-concept-3d-rendering_670147-66819.jpg?w=2000');
+  background-size: cover;
+  background-repeat: no-repeat;
   background-color: bisque;
   display: flex;
   justify-content: center;
