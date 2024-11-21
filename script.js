@@ -88,4 +88,6 @@ equal.addEventListener("click", () => {
   Number2 == 0 && operator == "/"
     ? (display.value = "اعقل يسطا")
     : console.log(`The answer is: ${answer}`);
+    operator =""
+    Number2= ""
 });
