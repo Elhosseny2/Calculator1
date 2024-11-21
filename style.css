@@ -31,7 +31,7 @@ button {
   border-radius: 50px;
   border: none;
   margin-bottom: 10px;
-  background-color: hsl(0, 0%, 50%);
+  background-color: hsl(0, 0%, 40%);
   color: white;
   font-size: 2rem;
   font-weight: bold;
@@ -41,9 +41,14 @@ button {
     /* background-color: red; */
     width: 100%;
 }
-#Equals{
+#equalsBTN{
+    background-color: orange;
     width: 100%;
 }
 .opBTN{
     background-color: orange;
+}
+
+.num:hover, .clear:hover {
+    background-color: hsl(0, 0%, 50%);
 }
