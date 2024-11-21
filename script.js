@@ -2,7 +2,7 @@ let numBTN = document.querySelectorAll(".num");
 let display = document.querySelector("#display");
 let operatorsBtn = document.querySelectorAll(".opBTN");
 let clearBTn = document.querySelector(".clear");
-let equal = document.querySelector("#Equals");
+let equal = document.querySelector("#equalsBTN");
 function add(a, b) {
   return +a + +b;
 }
