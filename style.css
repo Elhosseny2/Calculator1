@@ -8,12 +8,13 @@ body {
 #display {
   width: 100%;
 }
-#container{
-    max-width: 420px;
+#container {
+  max-width: 420px;
+  background-color: hsl(0, 0%, 20%);
 }
 button {
-    height: 100px;
-    width: 100px;
-    border-radius: 50px;
-    border: none;
-}`
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  border: none;
+}
