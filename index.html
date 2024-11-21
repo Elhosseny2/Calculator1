@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body>
+<style>
+    body {background-color: bisque; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    }
+    #display {
+        width: 100%;
+    }
+</style>
+    <div id="container">
+        <input id="display" value="" />
+      <div id="buttons">
+        <div id="operators">
+          <button class="opBTN" id="divide" value="/">÷</button>
+          <button class="opBTN" id="multiply" value="*">x</button>
+          <button class="opBTN" id="subtract" value="-">-</button>
+          <button class="opBTN" id="add" value="+">+</button>
+          <button class="opBTN" id="Equals">=</button>
+        </div>
+      <div id="numbers">
+          <button class="num" value="1">1</button>
+          <button class="num" value="2">2</button>
+          <button class="num" value="3">3</button>
+          <button class="num" value="4">4</button>
+          <button class="num" value="5">5</button>
+        <button class="num" value="6">6</button>
+        <button class="num" value="7">7</button>
+        <button class="num" value="8">8</button>
+        <button class="num" value="9">9</button>
+        <button class="num" value="0">0</button>
+        <button class="clear">AC</button>
+        <button class="num" value=".">.</button>
+      </div>
+    <script src="script.js"></script>
+</body>
+</html>
