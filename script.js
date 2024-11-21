@@ -24,7 +24,7 @@ let operator = "";
 let Number2 = "";
 let displayContent;
 let storedNumber = "";
-let answer = ""
+let answer = "";
 // let a = prompt("enter the first number")
 // let b = prompt("enter the second number")
 // let operator = prompt("enter the operator")
@@ -58,7 +58,7 @@ numBTN.forEach((button) =>
       Number2 += button.value;
     }
     // answer != "" ? displayContent= "" : displayContent = answer;
-})
+  })
 );
 operatorsBtn.forEach((opBTN) =>
   opBTN.addEventListener("click", () => {
@@ -75,16 +75,17 @@ clearBTn.addEventListener("click", () => {
   operator = "";
   Number1 = "";
   Number2 = "";
-  answer = ""
+  answer = "";
 });
 
 equal.addEventListener("click", () => {
   a = Number1;
   b = Number2;
-  answer = operate(a, b,operator);
-  display.value = answer
+  answer = operate(a, b, operator);
+  display.value = answer;
   Number1 = answer;
-//display a snarky error message when divide by 0
-  Number2 ==0 && operator == "/" ? display.value = "اعقل يسطا" :
-  console.log(`The answer is: ${answer}`);
+  //display a snarky error message when divide by 0
+  Number2 == 0 && operator == "/"
+    ? (display.value = "اعقل يسطا")
+    : console.log(`The answer is: ${answer}`);
 });
