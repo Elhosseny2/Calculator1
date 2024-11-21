@@ -55,3 +55,9 @@ button {
 .opBTN:hover , #equalsBTN:hover {
     background-color: hsl(35, 100%, 65%)
 }
+.num:active, .clear:active {
+    background-color: hsl(0, 0%, 65%);
+}
+.opBTN:active , #equalsBTN:active {
+    background-color: hsl(35, 100%, 75%)
+}
